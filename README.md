@@ -47,3 +47,12 @@ streamlit run app.py
 * Real-time streaming logs
 * Advanced ML models
 * Alert system integration
+  
+## Methodology
+- Logs are parsed using regex-based techniques
+- Features are extracted from log patterns
+- Anomaly detection is performed using basic statistical / ML techniques (e.g., thresholding / clustering)
+
+## Output
+- Highlights anomalous log entries
+- Displays results using Streamlit UI
